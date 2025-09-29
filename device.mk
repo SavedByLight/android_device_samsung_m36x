@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/samsung/m35x
+LOCAL_PATH := device/samsung/m36x
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

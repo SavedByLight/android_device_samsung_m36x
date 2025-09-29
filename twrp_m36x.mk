@@ -16,16 +16,16 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Inherit from m35x device
-$(call inherit-product, device/samsung/m35x/device.mk)
+$(call inherit-product, device/samsung/m36x/device.mk)
 
-PRODUCT_DEVICE := m35x
-PRODUCT_NAME := twrp_m35x
+PRODUCT_DEVICE := m36x
+PRODUCT_NAME := twrp_m36x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M356B
+PRODUCT_MODEL := SM-M366B
 PRODUCT_MANUFACTURER := samsung
 
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m35x/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m36x/recovery/root,recovery/root)
 
 # Charger
 PRODUCT_PACKAGES += \

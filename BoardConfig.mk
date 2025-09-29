@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/m35x
+DEVICE_PATH := device/samsung/m36x
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
